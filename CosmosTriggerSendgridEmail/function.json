@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "COSMOS_ENDPOINT",
+      "databaseName": "TestDB",
+      "collectionName": "TestCollection",
+      "createLeaseCollectionIfNotExists": "true"
+    },
+    {
+      "type": "sendGrid",
+      "direction": "out",
+      "name": "$return",
+      "apiKey": "SENDGRID_APIKEY"
+    }
+  ]
+}
