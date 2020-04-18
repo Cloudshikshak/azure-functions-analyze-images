@@ -1,2 +1,4 @@
-# azure-functions-analyze-images
-Azure function project to analyze images using computer vision API.
+# Azure Functions Image Thumbnail 
+
+## Explanation
+This demo is part of a course *Azure Functions Masterclass* on [Cloudshikshak.com](https://cloudshikshak.com)
